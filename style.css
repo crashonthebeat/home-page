@@ -102,6 +102,10 @@
     font-weight: bold;
 }
 
+.hero .content .signup a:hover {
+    text-decoration: underline;
+}
+
 .hero .content .signup a:link {
     text-decoration: none;
 }
@@ -114,6 +118,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero .image img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
 
 .vert-section {
