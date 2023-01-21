@@ -178,10 +178,17 @@ div.hero-statement button[type=button] {
 div.hero-image {
     text-align: center;
     width: 50%;
-    height: 10rem;
     padding: 0;
     overflow:hidden;
     display: inline-block;
+}
+
+div.hero-image img {
+    width: auto;
+    height: 15rem;
+    margin: 0;
+    object-fit: cover;
+    backface-visibility: hidden;
 }
 
 /*
