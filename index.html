@@ -1,85 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Home</title><!-- Insert Title -->
-    </head>
-    <body>
-        <div class="pageheader">
-            <div class="logo">
-                <img src="images/logo.png">
-                <p>BGRT</p>
+<head>
+    <meta charset="utf-8">
+    <title>Layout Test</title>
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/textstyle.css">
+    <link rel="stylesheet" href="styles/colorscheme.css">
+</head>
+<body>
+<header>
+    <div class="logo"></div>
+    <div class="logotext"><p id="logotext">BGRTWEB</p></div>
+    <div class="horiz-filler"></div>
+    <div class="quick-access">
+        <a href=""><img src="images/twitter.png"></a>
+        <a href=""><img src="images/github.png"></a>
+    </div>
+</header>
+<nav>
+    <ul>
+        <li><a href="">home</a>
+        <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+            <div class="dropdown-content">
+                <a href="">droplink 1</a>
+                <a href="">droplink 2</a>
+                <a href="">droplink 3</a>
             </div>
-            <div class="navbar">
-                <a href="">header link one</a>
-                <a href="">header link two</a>
-                <a href="">header link three</a>
-            </div>
-        </div>
-        <div class="hero">
-            <div class="content">
-                <div class="header">This website is awesome</div>
-                <div class="statement">
-                    This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.
-                </div>
-                <div class="signup"><a href="">Sign up</a></div>
-            </div>
-            <div class="image"><img src="images/pnw.jpg"></div>
-        </div>
-        <div class="body">
-            <div class="vert-section"><div class="at-a-glance">
-                <div class="header">Some random information.</div>
-                <div class="content">
-                    <div>
-                        <div class="image"><img src="images/datacenter.jpg"></div>
-                        <div class="text">
-                            this is some subtext under an illustration or image
-                        </div>
-                    </div>
-                    <div>
-                        <div class="image"><img src="images/brz.jpg"></div>
-                        <div class="text">
-                            this is some subtext under an illustration or image
-                        </div>
-                    </div>
-                    <div>
-                        <div class="image"><img src="images/writing.jpg"></div>
-                        <div class="text">
-                            this is some subtext under an illustration or image
-                        </div>
-                    </div>
-                    <div>
-                        <div class="image"><img src="images/dragon.jpg"></div>
-                        <div class="text">
-                            this is some subtext under an illustration or image
-                        </div>
-                    </div>
-                </div>
-            </div></div>
-            <div class="quote">
-                <div class="content">
-                    <p>This is an inspiring quote or a testimonial from a customer. Maybe it's just filling up space,
-                    or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-                </div>
-                <div class="author">
-                    <p>-Thor, God of Thunder</p>
-                </div>
-            </div>
-            <div class="vert-section"><div class="call-to-action">
-                <div class="call">
-                    <div class="header">Call to action! It's time!</div>
-                    <div class="content">
-                        Sign up for our product by clicking that button right over there!
-                    </div>
-                </div>
-                <div class="action">
-                    <a href="">Sign up!</a>
-                </div>
-            </div></div>
-        </div>
-        <div class="footer">
-            <p>Copyright &copy; Chris Bogart 2023</p>
-        </div>
-    </body>
+        <li><a href="">link1</a>
+        <li><a href="">link2</a>
+        <li style="float:right"><a href="">rightlink</a>
+    </ul>
+</nav>
+<section class="banner">
+    <div class="hero-statement">
+        <h3>Welcome to BGRTWEB</h3>
+        <p>This is where I'll be showing off all the projects I learn in <a href="https://www.theodinproject.com/">The Odin Project</a>.</p>
+        <button type="button">Learn More</button>
+    </div>
+    <div class="hero-image">
+        <img src="">
+        <p>Image Placeholder</p>
+    </div>
+</section>
+<section class="article">
+<ol class="table-of-contents">
+    <li><a href="">Section Title</a>
+        <ol>
+            <li><a href="">Subsection Title with a pretty long name that might wrap.</a></li>
+        </ol></li>
+    <li><a href="">Section Title</a>
+        <ol>
+            <li><a href="">Subsection Title</a>
+                <ol>
+                    <li><a href="">Subsubsection Title</a></li>
+                </ol></li>
+        </ol>
+    </li>
+</ol>
+    <h1>Article Title</h1>
+    <p>
+        Sagittis id consectetur purus ut faucibus pulvinar. Magna fermentum iaculis eu non. Tincidunt dui ut ornare lectus sit amet. Ac tortor 
+        vitae purus faucibus ornare suspendisse sed. Id semper risus in hendrerit gravida.
+    </p>
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget 
+        magna fermentum iaculis eu non diam. Non arcu risus quis varius quam quisque id diam vel. Consequat ac felis donec et. Eu 
+        scelerisque felis imperdiet proin fermentum leo. Nibh mauris cursus mattis molestie a iaculis at erat. Varius quam quisque id diam 
+        vel quam elementum pulvinar etiam. Odio pellentesque diam volutpat commodo sed. Lacinia quis vel eros donec. Vivamus at augue eget 
+        arcu dictum varius duis. 
+    </p>
+    <p> 
+        Mattis enim ut tellus elementum sagittis vitae et leo duis. Id consectetur purus ut faucibus pulvinar. 
+        Pellentesque dignissim enim sit amet venenatis urna cursus. Enim ut tellus elementum sagittis vitae. Auctor eu augue ut lectus 
+        arcu bibendum. Viverra mauris in aliquam sem fringilla ut. Egestas dui id ornare arcu odio ut sem nulla pharetra. Laoreet id donec 
+        ultrices tincidunt arcu non sodales neque sodales. Et pharetra pharetra massa massa ultricies mi. Purus in massa tempor nec 
+        feugiat nisl pretium fusce id.
+    </p>
+    <h3>Subsection title</h3>
+    <p>Purus semper eget duis at tellus. Leo in vitae turpis massa sed elementum. Pharetra magna ac placerat vestibulum lectus mauris 
+        ultrices eros. Facilisi etiam dignissim diam quis enim lobortis. Sed adipiscing diam donec adipiscing tristique. Lobortis feugiat 
+        vivamus at augue eget arcu dictum. Tempor orci eu lobortis elementum nibh tellus. At volutpat diam ut venenatis tellus in metus. 
+        Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Mauris vitae ultricies leo integer malesuada nunc vel. 
+        Lacinia quis vel eros donec ac odio. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Enim blandit volutpat maecenas 
+        volutpat blandit aliquam etiam. 
+    </p>
+    <h2>Section Title</h2>
+    <p>
+        Ut placerat orci nulla pellentesque dignissim enim sit amet. Urna neque viverra justo nec ultrices dui. Senectus et netus et 
+        malesuada fames. Donec et odio pellentesque diam volutpat commodo sed egestas. Condimentum mattis pellentesque id nibh tortor id 
+        aliquet lectus proin.
+    </p>
+</section>
+<section class="push"></section>
+<footer>
+    <div class="copyright"><p>&copy; Chris Bogart 2023</p></div>
+    <div class="credits"><p>credits</p></div>
+</footer>
+</body>
 </html>

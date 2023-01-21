@@ -1,0 +1,77 @@
+header {
+    color: #DBE4EE;
+    background-color: #0A210F;
+}
+
+nav {
+    background-color: #0A210F;
+    border-top: 1px solid #5B8266;
+    border-bottom: 1px solid #5B8266;
+}
+
+nav li a, .dropbtn {
+    color: #DBE4EE;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+    color: #DBE4EE;
+    background-color: #11501e;;
+}
+
+div.dropdown-content {
+    background-color: #DBE4EE;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+nav div.dropdown-content a {
+    color: #3D518C;
+    text-decoration: none;
+}
+
+nav div.dropdown-content a:hover {
+    color: #0A210F;
+    background-color: #DBE4EE;
+}
+
+footer {
+    color: #DBE4EE;
+    background-color: #5B8266;
+}
+
+section {
+    color: #0a210F
+}
+
+section a {
+    color: #3D518C;
+}
+
+section.banner {
+    color: #DBE4EE;
+    background-color: #5B8266;
+}
+
+div.hero-statement a {
+    color: #0a210F;
+}
+
+div.hero-statement a:hover {
+    color: #3D518C;
+}
+
+button[type=button] {
+    color: #DBE4EE;
+    background-color: #0a210F;
+}
+
+button[type=button]:hover {
+    color: #DBE4EE;
+    background-color: #11501e;
+}
+
+div.hero-image {
+    color: #0a210F;
+    background-color: lightgray;
+}
+
